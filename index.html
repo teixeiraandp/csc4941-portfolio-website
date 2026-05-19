@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pedro Luiz Teixeira | Portfolio</title>
+
+  <style>
+
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+    }
+
+    body{
+      font-family: Arial, sans-serif;
+      background:#0b1120;
+      color:white;
+      line-height:1.6;
+    }
+
+    header{
+      background:linear-gradient(to right,#0f172a,#111827);
+      padding:60px 20px;
+      text-align:center;
+    }
+
+    header h1{
+      font-size:48px;
+      margin-bottom:10px;
+    }
+
+    header p{
+      font-size:20px;
+      color:#cbd5e1;
+    }
+
+    nav{
+      background:#111827;
+      padding:15px;
+      text-align:center;
+      position:sticky;
+      top:0;
+    }
+
+    nav a{
+      color:white;
+      text-decoration:none;
+      margin:0 15px;
+      font-weight:bold;
+      transition:0.3s;
+    }
+
+    nav a:hover{
+      color:#38bdf8;
+    }
+
+    section{
+      max-width:1100px;
+      margin:40px auto;
+      padding:30px;
+      background:#111827;
+      border-radius:12px;
+    }
+
+    h2{
+      margin-bottom:20px;
+      color:#38bdf8;
+      font-size:32px;
+    }
+
+    p{
+      margin-bottom:15px;
+      color:#d1d5db;
+    }
+
+    .button{
+      display:inline-block;
+      padding:12px 18px;
+      background:#2563eb;
+      color:white;
+      text-decoration:none;
+      border-radius:8px;
+      margin-top:10px;
+      margin-right:10px;
+      transition:0.3s;
+    }
+
+    .button:hover{
+      background:#1d4ed8;
+    }
+
+    .skills{
+      display:flex;
+      flex-wrap:wrap;
+      gap:10px;
+    }
+
+    .skill{
+      background:#1e293b;
+      padding:10px 15px;
+      border-radius:20px;
+      border:1px solid #334155;
+    }
+
+    .project{
+      margin-bottom:40px;
+    }
+
+    .gallery{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+      gap:20px;
+      margin-top:25px;
+    }
+
+    .gallery img{
+      width:100%;
+      border-radius:12px;
+      border:2px solid #1e293b;
+      transition:0.3s;
+    }
+
+    .gallery img:hover{
+      transform:scale(1.03);
+    }
+
+    footer{
+      text-align:center;
+      padding:30px;
+      color:#94a3b8;
+    }
+
+  </style>
+</head>
+
+<body>
+
+<header>
+
+  <h1>Pedro Luiz Teixeira</h1>
+
+  <p>
+    Information Systems Student | Expected Graduation: Spring 2026
+  </p>
+
+  <p>
+    Software Development • Cybersecurity • Intelligence
+  </p>
+
+  <br>
+
+  <a class="button" href="https://github.com/teixeiraandp" target="_blank">
+    GitHub
+  </a>
+
+  <a class="button" href="https://www.linkedin.com/in/pedro-luiz-teixeira-240516123/" target="_blank">
+    LinkedIn
+  </a>
+
+</header>
+
+<nav>
+  <a href="#about">About</a>
+  <a href="#skills">Skills</a>
+  <a href="#projects">Projects</a>
+  <a href="#internship">Internship Alternative</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+
+  <h2>About Me</h2>
+
+  <p>
+    My name is Pedro Luiz Teixeira. I am an Information Systems student at Seattle Pacific University,
+    and my expected graduation is in 2026.
+  </p>
+
+  <p>
+    I am interested in software development, cybersecurity, intelligence analysis. This portfolio highlights some of my projects,
+    technical skills, and academic work.
+  </p>
+
+</section>
+
+<section id="skills">
+
+  <h2>Skills</h2>
+
+  <div class="skills">
+
+    <div class="skill">Python</div>
+    <div class="skill">Java</div>
+    <div class="skill">C++</div>
+    <div class="skill">SQL</div>
+    <div class="skill">HTML</div>
+    <div class="skill">CSS</div>
+    <div class="skill">GitHub</div>
+    <div class="skill">React Native</div>
+    <div class="skill">Expo</div>
+    <div class="skill">Agile/Scrum</div>
+    <div class="skill">Cybersecurity</div>
+    <div class="skill">Data Analysis</div>
+    <div class="skill">Software Testing</div>
+
+  </div>
+
+</section>
+
+<section id="projects">
+
+  <h2>Projects</h2>
+
+  <div class="project">
+
+    <h3>TripSplit</h3>
+
+    <br>
+
+    <p>
+      TripSplit is a team mobile application project designed to help groups
+      split expenses during trips.
+    </p>
+
+    <p>
+      Users can create trips, invite friends, add expenses,
+      track balances, and see how much each person owes.
+    </p>
+
+    <p>
+      My role in this project included planning, testing,
+      presentations, documentation, and contributing to the development process
+      using Agile/Scrum practices.
+    </p>
+
+    <a class="button"
+      href="https://github.com/teixeiraandp/SPU_TripSplit"
+      target="_blank">
+
+      View TripSplit on GitHub
+
+    </a>
+
+    <br><br>
+
+    <h3>TripSplit Screenshots</h3>
+
+    <div class="gallery">
+
+      <img src="images/tripsplit-logo.png" alt="TripSplit Logo">
+
+      <img src="images/tripsplit-home.png" alt="TripSplit Home">
+
+      <img src="images/tripsplit-friends.png" alt="TripSplit Friends">
+
+      <img src="images/tripsplit-profile.png" alt="TripSplit Profile">
+
+    </div>
+
+  </div>
+
+  <div class="project">
+
+    <h3>Class and Coding Projects</h3>
+
+    <br>
+
+    <p>
+      I have worked on individual school projects involving
+      programming, databases, systems design, and web development.
+    </p>
+
+    <p>
+      These projects helped me improve my technical skills,
+      teamwork, and problem-solving abilities.
+    </p>
+
+  </div>
+
+  <div class="project">
+
+    <h3>Data Analysis Projects</h3>
+
+    <br>
+
+    <p>
+      I have worked on projects involving SQL, Tableau,
+      RapidMiner, and spreadsheets for data analysis and visualization.
+    </p>
+
+  </div>
+
+</section>
+
+<section id="internship">
+
+  <h2>Internship Alternative</h2>
+
+  <p>
+    For my internship alternative, I am currently studying for the
+    CompTIA Security+ certification.
+  </p>
+
+  <p>
+    This certification is helping me build knowledge in cybersecurity,
+    including network security, threats and vulnerabilities,
+    risk management, and security best practices.
+  </p>
+
+  <p>
+    I am using online courses, practice exams, notes,
+    and discussions with people who already completed the certification
+    to prepare for the exam.
+  </p>
+
+</section>
+
+<section id="contact">
+
+  <h2>Contact</h2>
+
+  <p>
+    You can connect with me on LinkedIn or view my projects on GitHub.
+  </p>
+
+  <a class="button"
+    href="https://github.com/teixeiraandp"
+    target="_blank">
+
+    GitHub
+
+  </a>
+
+  <a class="button"
+    href="https://www.linkedin.com/in/pedro-luiz-teixeira-240516123/"
+    target="_blank">
+
+    LinkedIn
+
+  </a>
+
+</section>
+
+<footer>
+
+  <p>
+    © 2026 Pedro Luiz Teixeira
+  </p>
+
+</footer>
+
+</body>
+</html>
